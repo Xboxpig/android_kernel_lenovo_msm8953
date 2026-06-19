@@ -42,7 +42,7 @@
 &soc {
 	ramoops {
 		compatible = "ramoops";
-		status = "ok";
+		status = "disabled";
 
 		/* This is tacked at the end of wcnss_fw_region@0 */
 		android,ramoops-buffer-start = <0x8ee00000>;
